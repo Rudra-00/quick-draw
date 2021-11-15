@@ -1,0 +1,35 @@
+h1{
+    background-color:lemonchiffon
+
+}
+
+p{
+    font-size:30px ;
+}
+
+#sketchtobedrawn{
+color:red ;
+}
+
+body{
+    background-color: rgb(252, 200, 245);
+}
+#score{
+    float: left;
+}
+#time{
+    float: right;
+}
+canvas{
+    border:7px solid grey ;
+    border-radius: 10px;
+    animation-name:example;
+    animation-duration:7s ;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+  from{box-shadow: 1px 1px 38px rgb(3, 255, 16) ;}
+  to{box-shadow: 1px 1px 38px rgb(38, 0, 255) ;}
+}
